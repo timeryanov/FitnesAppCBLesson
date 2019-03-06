@@ -5,6 +5,7 @@ namespace CBFitness.BL.Model
     /// <summary>
     /// Пользователь.
     /// </summary>
+    [Serializable]
     public class User
     {
         #region Свойства | Properties
@@ -42,6 +43,7 @@ namespace CBFitness.BL.Model
         /// <param name="birthDate">Дата рождения.</param>
         /// <param name="weight">Вес.</param>
         /// <param name="height">Рост.</param>
+    
         public User(string name, 
                     Gender gender, 
                     DateTime birthDate,
